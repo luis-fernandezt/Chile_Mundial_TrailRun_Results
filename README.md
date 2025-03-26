@@ -27,7 +27,7 @@
 |Uphill Mountain Race          |   39| 618|Hugo Felipe CONTRERAS CAMPOS    |Male |00:58:15 |
 
 ### Resultados Generales - Análisis con BoxPlot
-- Los Puntos rojos representan la participación de seleccionados nacionales en el Mundial.     
+- Los puntos rojos representan la participación de seleccionados nacionales en el Mundial de Trail.     
 - El menor tiempo representa un mejor desempeño en una competencia de Running.
 
 ![](https://github.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/blob/main/data/Long%20Trail%20Race.png)
