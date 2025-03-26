@@ -6,6 +6,29 @@ Resultados de Chile en el Campeonato Mundial de Trail Running
 ##### 04/11/2022-06/11/2022 | Chiang Mai, Tailandia
 [https://my.raceresult.com/225074/](https://my.raceresult.com/225074/)
 
+### Resultados Mujeres
+
+|Race                          | Rank| Bib|Name                                |Sexo   |Times               |
+|:-----------------------------|----:|---:|:-----------------------------------|:------|:-------------------|
+|Short Trail Race              |   42| 309|Patricia Ariela COBI VELASQUEZ      |Female |2022-11-05 04:37:56 |
+|Short Trail Race              |   52| 379|Jeanette Macarena CAYUQUEO DOMIHAUL |Female |2022-11-05 04:57:27 |
+|Up and Downhill Mountain Race |   51| 715|Cristina Isabel BARRIGA CATELICAN   |Female |2022-11-06 01:00:40 |
+|Uphill Mountain Race          |   46| 511|Jeanette Macarena CAYUQUEO DOMIHUAL |Female |2022-11-04 01:14:13 |
+
+### Resultados Hombres
+
+|Race                          | Rank| Bib|Name                            |Sexo |Times               |
+|:-----------------------------|----:|---:|:-------------------------------|:----|:-------------------|
+|Long Trail Race               |   69| 118|Luis Esteban SOTO AYAMANTE      |Male |2022-11-05 09:34:32 |
+|Short Trail Race              |   38| 416|Nicolas Ignacio BENAVIDES BOHIE |Male |2022-11-05 03:43:25 |
+|Up and Downhill Mountain Race |   38| 816|Diego Ignacio DIAZ INOSTROZA    |Male |2022-11-06 00:45:58 |
+|Up and Downhill Mountain Race |   43| 817|Gabriel Halans MUÑOZ FLORES     |Male |2022-11-06 00:47:26 |
+|Up and Downhill Mountain Race |   47| 818|Hugo Felipe CONTRERAS CAMPOS    |Male |2022-11-06 00:48:05 |
+|Up and Downhill Mountain Race |   55| 819|Nicolas Ignacio BENAVIDES BOHIE |Male |2022-11-06 00:52:12 |
+|Uphill Mountain Race          |   34| 616|Diego Ignacio DIAZ INOSTROZA    |Male |2022-11-04 00:54:59 |
+|Uphill Mountain Race          |   38| 617|Gabriel Halans MUÑOZ FLORES     |Male |2022-11-04 00:57:35 |
+|Uphill Mountain Race          |   39| 618|Hugo Felipe CONTRERAS CAMPOS    |Male |2022-11-04 00:58:15 |
+
 ![](https://my.raceresult.com/237839/cover)
 ## 2nd World Mountain and Trail Running Championships Innsbruck-Stubai 2023
 ##### 07/06/2023-10/06/2023 | Innsbruck-Stubai, Austria
