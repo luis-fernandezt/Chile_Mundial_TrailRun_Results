@@ -1,7 +1,9 @@
-# Chile's results at the Trail Running World Championships
-Resultados de Chile en el Campeonato Mundial de Trail Running
-
+# Resultados de Chile en el Campeonato Mundial de Trail Running
+![](https://github.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/blob/main/data/Long%20Trail%20Race.png)
 ![](https://github.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/blob/main/data/Short%20Trail%20Race.png)
+![](https://github.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/blob/main/data/Up%20and%20Downhill%20Mountain%20Race.png)
+![](https://github.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/blob/main/data/Uphill%20Mountain%20Race.png?raw=true)
+
 ## 1st Amazing Thailand World Mountain and Trail Running Championships 2021 presented by NSDF
 ##### 04/11/2022-06/11/2022 | Chiang Mai, Tailandia
 [https://my.raceresult.com/225074/](https://my.raceresult.com/225074/)
