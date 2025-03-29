@@ -1,4 +1,5 @@
 # Resultados de Chile en el Campeonato Mundial de Trail Running     
+En este repositorio puede encontrar los resultados de la participación de seleccionados de Chile en los Mundiales de Trail Running. El codigo R con el análisis esta disponible en: [Reports.R](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/Reports.R) Por su parte, los resultados en formato base de datos estan disponibles en: [WMTRC_Thailand.csv](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/WMTRC_Thailand.csv)     
 
 ## 1st Amazing Thailand World Mountain and Trail Running Championships 2021 presented by NSDF
 ![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/cover1.jpg)    
