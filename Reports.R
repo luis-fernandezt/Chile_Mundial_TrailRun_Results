@@ -7,6 +7,7 @@ library(chron)
 library(lubridate)
 library(ggplot2)
 library(dplyr)
+library(viridis)
 
 #load data from Thailand World Mountain and Trail Running Championships 2021
 #results2021 <- read_excel("data/02ResultsResults.xlsx", 
@@ -54,48 +55,59 @@ cl_2021 |>
   arrange(Race, Rank))
 
 # General results
-ggplot(Long, aes(x = Times, y = Sexo)) +
-  geom_boxplot() +
-  geom_jitter(aes(x = Times, y = Sexo), color = "red", size = 2, data = cl_2021 |> filter(Race == "Long Trail Race") ) +  # Puntos resaltados
-  scale_x_datetime(date_labels = "%H:%M:%S") +  # Formato eje X
-  labs(title = "Long Trail Race - Distribución de Tiempos por Sexo", x = "Tiempo (HH:MM:SS)", y = "Sexo") +
-  theme_minimal()
+ggplot(Long, aes(x = Times, y = Sexo, fill = Sexo)) +
+  geom_boxplot(outlier.size=-1) +
+  scale_fill_viridis(discrete = TRUE, alpha=0.6) +
+  geom_jitter(aes(x = Times, y = Sexo), color = "black", size = 1.5, alpha=0.9) +
+  geom_jitter(aes(x = Times, y = Sexo), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Long Trail Race") ) +  # Puntos resaltados
+  scale_x_datetime(date_breaks = "hour", date_labels = "%H:%M") +  # Formato eje X
+  labs(title = "Long Trail Race", x = "Tiempo", y = "META") +
+  theme_minimal() +
+  guides(fill="none", color="none")
+  
 summary(Long)
 knitr::kable(
 results2021 |> filter(Race == "Long Trail Race" & Rank <=3 & Sexo == "Male"))
 knitr::kable(
 results2021 |> filter(Race == "Long Trail Race" & Rank <=3 & Sexo == "Female"))
 
-ggplot(Short, aes(x = Times, y = Sexo)) +
-  geom_boxplot() +
-  geom_jitter(aes(x = Times, y = Sexo), color = "red", size = 2, data = cl_2021 |> filter(Race == "Short Trail Race") ) +  # Puntos resaltados
-  scale_x_datetime(date_labels = "%H:%M:%S") +  # Formato eje X
-  labs(title = "Short Trail Race - Distribución de Tiempos por Sexo", x = "Tiempo (HH:MM:SS)", y = "Sexo") +
-  theme_minimal()
+ggplot(Short, aes(x = Times, y = Sexo, fill = Sexo)) +
+  geom_boxplot(outlier.size=-1) +
+  scale_fill_viridis(discrete = TRUE, alpha=0.6) +
+  geom_jitter(aes(x = Times, y = Sexo), color = "black", size = 1.5, alpha=0.9) +
+  geom_jitter(aes(x = Times, y = Sexo), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Short Trail Race") ) +  # Puntos resaltados
+  scale_x_datetime(date_breaks = "hour", date_labels = "%H:%M") +  # Formato eje X
+  labs(title = "Short Trail Race", x = "Tiempo", y = "META") +
+  theme_minimal() +
+  guides(fill="none", color="none")
 summary(Short)
 knitr::kable(
 results2021 |> filter(Race == "Short Trail Race" & Rank <=3 & Sexo == "Male"))
 knitr::kable(
 results2021 |> filter(Race == "Short Trail Race" & Rank <=3 & Sexo == "Female"))
 
-ggplot(Uphill, aes(x = Times, y = Sexo)) +
-  geom_boxplot() +
-  geom_jitter(aes(x = Times, y = Sexo), color = "red", size = 2, data = cl_2021 |> filter(Race == "Uphill Mountain Race") ) +  # Puntos resaltados
-  scale_x_datetime(date_labels = "%H:%M:%S") +  # Formato eje X
-  labs(title = "Uphill Mountain Race - Distribución de Tiempos por Sexo", x = "Tiempo (HH:MM:SS)", y = "Sexo") +
-  theme_minimal()
+ggplot(Uphill, aes(x = Times, y = Sexo, fill = Sexo)) +
+  geom_boxplot(outlier.size=-1) +
+  scale_fill_viridis(discrete = TRUE, alpha=0.6) +
+  geom_jitter(aes(x = Times, y = Sexo), color = "black", size = 1.5, alpha=0.9) +
+  geom_jitter(aes(x = Times, y = Sexo), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Uphill Mountain Race") ) +  # Puntos resaltados
+  labs(title = "Uphill Mountain Race", x = "Tiempo", y = "META") +
+  theme_minimal() +
+  guides(fill="none", color="none")
 summary(Uphill)
 knitr::kable(
 results2021 |> filter(Race == "Uphill Mountain Race" & Rank <=3 & Sexo == "Male"))
 knitr::kable(
 results2021 |> filter(Race == "Uphill Mountain Race" & Rank <=3 & Sexo == "Female"))
 
-ggplot(Downhill, aes(x = Times, y = Sexo)) +
-  geom_boxplot() +
-  geom_jitter(aes(x = Times, y = Sexo), color = "red", size = 2, data = cl_2021 |> filter(Race == "Up and Downhill Mountain Race") ) +  # Puntos resaltados
-  scale_x_datetime(date_labels = "%H:%M:%S") +  # Formato eje X
-  labs(title = "Up and Downhill Mountain Race - Distribución de Tiempos por Sexo", x = "Tiempo (HH:MM:SS)", y = "Sexo") +
-  theme_minimal()
+ggplot(Downhill, aes(x = Times, y = Sexo, fill = Sexo)) +
+  geom_boxplot(outlier.size=-1) +
+  scale_fill_viridis(discrete = TRUE, alpha=0.6) +
+  geom_jitter(aes(x = Times, y = Sexo), color = "black", size = 1.5, alpha=0.9) +
+  geom_jitter(aes(x = Times, y = Sexo), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Up and Downhill Mountain Race") ) +  # Puntos resaltados
+  labs(title = "Up and Downhill Mountain Race", x = "Tiempo", y = "META") +
+  theme_minimal() +
+  guides(fill="none", color="none")
 summary(Downhill)
 knitr::kable(
 results2021 |> filter(Race == "Up and Downhill Mountain Race" & Rank <=3 & Sexo == "Male"))
@@ -122,4 +134,4 @@ rank <-
 
 # Reordenar columnas
 rank <- rank %>% select(Ranking, Nation, Gold, Silver, Bronze, Total)
-knitr::kable(rank)
+knitr::kable(rank) 
