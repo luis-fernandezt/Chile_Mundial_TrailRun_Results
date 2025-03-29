@@ -135,3 +135,12 @@ rank <-
 # Reordenar columnas
 rank <- rank %>% select(Ranking, Nation, Gold, Silver, Bronze, Total)
 knitr::kable(rank) 
+
+# Resultados WMTRC Innsbruck-Stubai 2023 ####
+
+
+Pronto...
+
+
+
+
