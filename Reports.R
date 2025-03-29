@@ -61,7 +61,7 @@ ggplot(Long, aes(x = Times, y = Sexo, fill = Sexo)) +
   geom_jitter(aes(x = Times, y = Sexo), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Sexo), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Long Trail Race") ) +  # Puntos resaltados
   scale_x_datetime(date_breaks = "hour", date_labels = "%H:%M") +  # Formato eje X
-  labs(title = "Long Trail Race", x = "Tiempo", y = "META") +
+  labs(title = "Long Trail Race", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
   
@@ -77,7 +77,7 @@ ggplot(Short, aes(x = Times, y = Sexo, fill = Sexo)) +
   geom_jitter(aes(x = Times, y = Sexo), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Sexo), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Short Trail Race") ) +  # Puntos resaltados
   scale_x_datetime(date_breaks = "hour", date_labels = "%H:%M") +  # Formato eje X
-  labs(title = "Short Trail Race", x = "Tiempo", y = "META") +
+  labs(title = "Short Trail Race", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
 summary(Short)
@@ -91,7 +91,7 @@ ggplot(Uphill, aes(x = Times, y = Sexo, fill = Sexo)) +
   scale_fill_viridis(discrete = TRUE, alpha=0.6) +
   geom_jitter(aes(x = Times, y = Sexo), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Sexo), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Uphill Mountain Race") ) +  # Puntos resaltados
-  labs(title = "Uphill Mountain Race", x = "Tiempo", y = "META") +
+  labs(title = "Uphill Mountain Race", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
 summary(Uphill)
@@ -105,7 +105,7 @@ ggplot(Downhill, aes(x = Times, y = Sexo, fill = Sexo)) +
   scale_fill_viridis(discrete = TRUE, alpha=0.6) +
   geom_jitter(aes(x = Times, y = Sexo), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Sexo), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Up and Downhill Mountain Race") ) +  # Puntos resaltados
-  labs(title = "Up and Downhill Mountain Race", x = "Tiempo", y = "META") +
+  labs(title = "Up and Downhill Mountain Race", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
 summary(Downhill)
