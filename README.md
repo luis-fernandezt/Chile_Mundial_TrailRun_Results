@@ -1,7 +1,7 @@
 # Resultados de Chile en el Campeonato Mundial de Trail Running     
-      
-![](https://my.raceresult.com/225074/cover)
+
 ## 1st Amazing Thailand World Mountain and Trail Running Championships 2021 presented by NSDF
+![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/cover1.jpg)    
 ##### 04/11/2022-06/11/2022 | Chiang Mai, Tailandia 
 [https://my.raceresult.com/225074/](https://my.raceresult.com/225074/)
 
@@ -29,7 +29,7 @@
 |Uphill Mountain Race          |   39| 618|Hugo Felipe CONTRERAS CAMPOS    |Male |00:58:15 |
 
 ### Resultados Generales - Análisis con BoxPlot
-- **Los puntos rojos representan la participación de seleccionados nacionales en el Mundial de Trail.**   
+- **Los puntos rojos representan la participación de seleccionados/as nacionales en el Mundial de Trail.**   
 - **El menor tiempo representa un mejor desempeño en una competencia de Running.**
 
 ![](https://github.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/blob/main/data/Long%20Trail%20Race.png)
@@ -39,8 +39,8 @@
 
 --------
 
-![](https://my.raceresult.com/237839/cover)
 ## 2nd World Mountain and Trail Running Championships Innsbruck-Stubai 2023
+![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/cover2.jpg)   
 ##### 07/06/2023-10/06/2023 | Innsbruck-Stubai, Austria
 [https://my.raceresult.com/237839/](https://my.raceresult.com/237839/)
 
