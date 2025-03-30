@@ -8,7 +8,7 @@ En este repositorio puede encontrar los resultados de la participación de selec
 
 ### Resultados Mujeres
 
-|Race                          | Rank| Bib|Name                                |Sexo   |Times               |
+|Race                          | Rank| Bib|Name                                |Gender   |Times               |
 |:-----------------------------|----:|---:|:-----------------------------------|:------|:-------------------|
 |Short Trail Race              |   42| 309|Patricia Ariela COBI VELASQUEZ      |Female |04:37:56 |
 |Short Trail Race              |   52| 379|Jeanette Macarena CAYUQUEO DOMIHAUL |Female |04:57:27 |
@@ -17,7 +17,7 @@ En este repositorio puede encontrar los resultados de la participación de selec
 
 ### Resultados Hombres
 
-|Race                          | Rank| Bib|Name                            |Sexo |Times               |
+|Race                          | Rank| Bib|Name                            |Gender |Times               |
 |:-----------------------------|----:|---:|:-------------------------------|:----|:-------------------|
 |Long Trail Race               |   69| 118|Luis Esteban SOTO AYAMANTE      |Male |09:34:32 |
 |Short Trail Race              |   38| 416|Nicolas Ignacio BENAVIDES BOHIE |Male |03:43:25 |
