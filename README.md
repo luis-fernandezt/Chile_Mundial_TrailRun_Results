@@ -11,7 +11,7 @@ En este repositorio puede encontrar los resultados de la participación de selec
 ##### 04/11/2022-06/11/2022 | Chiang Mai, Tailandia 
 [https://my.raceresult.com/225074/](https://my.raceresult.com/225074/)
 
-### Resultados Mujeres
+### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Mujeres
 
 |Race                          | Rank| Bib|Name                                |Gender   |Times               |
 |:-----------------------------|----:|---:|:-----------------------------------|:------|:-------------------|
@@ -20,7 +20,7 @@ En este repositorio puede encontrar los resultados de la participación de selec
 |Up and Downhill Mountain Race |   51| 715|Cristina Isabel BARRIGA CATELICAN   |Female |01:00:40 |
 |Uphill Mountain Race          |   46| 511|Jeanette Macarena CAYUQUEO DOMIHUAL |Female |01:14:13 |
 
-### Resultados Hombres
+### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Hombres
 
 |Race                          | Rank| Bib|Name                            |Gender |Times               |
 |:-----------------------------|----:|---:|:-------------------------------|:----|:-------------------|
@@ -38,10 +38,9 @@ En este repositorio puede encontrar los resultados de la participación de selec
 - **Los puntos rojos representan la participación de seleccionados/as nacionales en el Mundial de Trail.**   
 - **El menor tiempo representa un mejor desempeño en una competencia de Running.**
 
-![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Long%20Trail%20Race%202021.png)
-![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Short%20Trail%20Race%202021.png)
-![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Up%20and%20Downhill%20Mountain%20Race%202021.png)
-![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Uphill%20Mountain%20Race%202021.png)
+<img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Long%20Trail%20Race%202021.png" width="417" height="292"> <img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Short%20Trail%20Race%202021.png" width="417" height="292">
+
+<img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Up%20and%20Downhill%20Mountain%20Race%202021.png" width="417" height="292"> <img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Uphill%20Mountain%20Race%202021.png" width="417" height="292">
 
 --------
 
@@ -50,15 +49,15 @@ En este repositorio puede encontrar los resultados de la participación de selec
 ##### 07/06/2023-10/06/2023 | Innsbruck-Stubai, Austria
 [https://my.raceresult.com/237839/](https://my.raceresult.com/237839/)
 
-Durante la segunda edición participaron 40 corredores (17 mujeres y 23 hombres). Primero mencionar que 9 competidores no lograron finalizar sus respectivas distancias por DNFs y un DSQ:
+Durante la segunda edición participaron 40 corredores procedentes de Chile (17 mujeres y 23 hombres). De esta nómina 9 competidores no lograron finalizar sus respectivas distancias por DNFs y un DSQ:
 
-### DNF Hombres
+### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> DNF Hombres
 
 |Race       |Rank |  Bib|Name           |Gender | Time|
 |:----------|:----|----:|:--------------|:------|----:|
 |Trail Long |DNF  | 3050|Emmanuel ACUÑA |Male   |   NA|
 
-### DNF/DSQ Mujeres
+### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> DNF/DSQ Mujeres
 
 |Race                    |Rank |  Bib|Name              |Gender | Time|
 |:-----------------------|:----|----:|:-----------------|:------|----:|
@@ -82,9 +81,11 @@ Definiciones:
 
 ### WMTRC - Long Trail Race 2023    
 
-![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Long%20Trail%20Race%202023.png)    
+<img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Long%20Trail%20Race%202023.png" width="417" height="292">
 
-En esta competencia el primer lugar femenino fue para Marion DELESPIERRE, FRA (**11:22:31**) y en hombres para Benjamin ROUBIOL, FRA (**09:52:59**). Dos corredores Chilenos finalizaron por sobre el promedio del tiempo (**12:05:07**). No hubo participación femenina:
+En esta competencia el primer lugar general hombres fue para Benjamin ROUBIOL, FRA <img src="https://timit.pro/events/graphics/flags/png/fr_black.png" width="20" height="15"> (**09:52:59**) seguido del primer lugar femenino para Marion DELESPIERRE, FRA <img src="https://timit.pro/events/graphics/flags/png/fr_black.png" width="20" height="15"> (**11:22:31**). Dos corredores Chilenos finalizaron por sobre el promedio del tiempo (**12:05:07**). No hubo participación nacional femenina:
+
+#### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Hombres
 
 | Rank|  Bib|Name                |Nation | Pts|Gender |WMTRC     |Race       |Times               |Gap      |MeanGap   |
 |----:|----:|:-------------------|:------|---:|:------|:---------|:----------|:-------------------|:--------|:---------|
@@ -96,9 +97,11 @@ En esta competencia el primer lugar femenino fue para Marion DELESPIERRE, FRA (*
 
 ### WMTRC - Short Trail Race 2023   
 
-![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Short%20Trail%20Race%202023.png)
+<img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Short%20Trail%20Race%202023.png" width="417" height="292">
 
-En esta competencia el primer lugar masculino fue para Stian Hovind ANGERMUND, NOR (**04:19:00**), mientras el primer lugar general femenino fue para Clementine GEOFFRAY, FRA (**04:53:12**). El promedio del tiempo general masculino fue de (**05:27:15**), en tanto la media femenina fue de (**06:10:07**).
+En esta competencia el primer lugar masculino fue para Stian Hovind ANGERMUND, NOR <img src="https://timit.pro/events/graphics/flags/png/no_black.png" width="20" height="15"> (**04:19:00**), mientras el primer lugar general femenino fue para Clementine GEOFFRAY, FRA <img src="https://timit.pro/events/graphics/flags/png/fr_black.png" width="20" height="15"> (**04:53:12**). El promedio del tiempo general masculino fue de (**05:27:15**), en tanto la media femenina fue de (**06:10:07**).
+
+#### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Hombres
 
 | Rank|  Bib|Name              |Nation | Pts|Gender |WMTRC     |Race        |Times               |Gap      |MeanGap   |
 |----:|----:|:-----------------|:------|---:|:------|:---------|:-----------|:-------------------|:--------|:---------|
@@ -108,6 +111,7 @@ En esta competencia el primer lugar masculino fue para Stian Hovind ANGERMUND, N
 |  109| 2060|Matías BARROS     |CHI    |  82|Male   |Innsbruck |Trail Short | 05:45:28 |01:26:28 |00:18:12  |
 |  148| 2062|Francisco MOREIRA |CHI    |  43|Male   |Innsbruck |Trail Short | 07:03:54 |02:44:54 |01:36:38  |
 
+#### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Mujeres
 
 | Rank|  Bib|Name              |Nation | Pts|Gender |WMTRC     |Race        |Times               |Gap      |MeanGap  |
 |----:|----:|:-----------------|:------|---:|:------|:---------|:-----------|:-------------------|:--------|:--------|
@@ -118,9 +122,11 @@ En esta competencia el primer lugar masculino fue para Stian Hovind ANGERMUND, N
 
 ### WMTRC - Vertical Race 2023 
 
-![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Vertical%20Race%202023.png)
+<img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Vertical%20Race%202023.png" width="417" height="292">
 
-El primero lugar del kilometro vertical fue para Patrick KIPNGENO, KEN (**00:40:18**), con un tiempo promedio de carrera masculina de (**00:50:21**). En mujeres el primer lugar se completo por Andrea MAYR, AUT (**00:48:14**). El tiempo promedio femenino del vertical fue de (**00:58:30**).
+El primero lugar del vertical fue para Patrick KIPNGENO, KEN <img src="https://timit.pro/events/graphics/flags/png/ke_black.png" width="20" height="15"> (**00:40:18**), con un tiempo promedio de carrera masculina de (**00:50:21**). En mujeres el primer lugar se completo por Andrea MAYR, AUT <img src="https://timit.pro/events/graphics/flags/png/at_black.png" width="20" height="15"> (**00:48:14**). El tiempo promedio femenino del vertical fue de (**00:58:30**).
+
+#### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Hombres
 
 | Rank|  Bib|Name               |Nation | Pts|Gender |WMTRC     |Race     |Times               |Gap      |MeanGap   |
 |----:|----:|:------------------|:------|---:|:------|:---------|:--------|:-------------------|:--------|:---------|
@@ -129,6 +135,8 @@ El primero lugar del kilometro vertical fue para Patrick KIPNGENO, KEN (**00:40:
 |   85| 1038|Gabriel MUÑOZ      |CHI    | 106|Male   |Innsbruck |Vertical | 00:51:25 |00:11:07 |00:01:04  |
 |  117| 1039|Martín SCHURCH     |CHI    |  74|Male   |Innsbruck |Vertical | 01:02:37 |00:22:19 |00:12:16  |
 
+#### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Mujeres
+
 | Rank|  Bib|Name           |Nation | Pts|Gender |WMTRC     |Race     |Times               |Gap      |MeanGap  |
 |----:|----:|:--------------|:------|---:|:------|:---------|:--------|:-------------------|:--------|:--------|
 |   75| 1041|Valeria CORREA |CHI    | 116|Female |Innsbruck |Vertical | 01:01:50 |00:13:36 |00:03:20 |
@@ -136,9 +144,11 @@ El primero lugar del kilometro vertical fue para Patrick KIPNGENO, KEN (**00:40:
 
 ### WMTRC - Classic Senior Race 2023
 
-![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Classic%20Senior%20Race%202023.png)
+<img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Classic%20Senior%20Race%202023.png" width="417" height="292">
 
-El primer lugar general masculino fue para Leonard CHEMUTAI, UGA (**00:56:14**), en mujeres fue para Grayson MURPHY, USA (01:04:29). La media de tiempo de finalización para hombres fue de (**01:07:23**), en mujeres fue de (**01:17:57**).
+El primer lugar general masculino fue para Leonard CHEMUTAI, UGA <img src="https://timit.pro/events/graphics/flags/png/ug_black.png" width="20" height="15"> (**00:56:14**), en mujeres fue para Grayson MURPHY, USA <img src="https://timit.pro/events/graphics/flags/png/us_black.png" width="20" height="15"> (01:04:29). La media de tiempo de finalización para hombres fue de (**01:07:23**), en mujeres fue de (**01:17:57**).
+
+#### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Hombres
 
 | Rank|  Bib|Name               |Nation | Pts|Gender |WMTRC     |Race                    |Times               |Gap      |MeanGap   |
 |----:|----:|:------------------|:------|---:|:------|:---------|:-----------------------|:-------------------|:--------|:---------|
@@ -149,9 +159,11 @@ El primer lugar general masculino fue para Leonard CHEMUTAI, UGA (**00:56:14**),
 
 ### WMTRC - Classic Junior Race 2023
 
-![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Classic%20Junior%20Race%202023.png)
+<img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Classic%20Junior%20Race%202023.png" width="417" height="292">
 
-El primer lugar general masculino fue para James KIRWA , UGA (**00:27:37**), en mujeres fue para Rebecca FLAHERTY, GBR (**00:33:20**). La media de tiempo de finalización para hombres fue de (**00:32:18**), en mujeres fue de (**00:38:19**). No se registró participación femeninca nacional:
+El primer lugar general masculino fue para James KIRWA , UGA <img src="https://timit.pro/events/graphics/flags/png/ug_black.png" width="20" height="15"> (**00:27:37**), en mujeres fue para Rebecca FLAHERTY, GBR <img src="https://timit.pro/events/graphics/flags/png/gb_black.png" width="20" height="15"> (**00:33:20**). La media de tiempo de finalización para hombres fue de (**00:32:18**), en mujeres fue de (**00:38:19**). No se registró participación femeninca nacional:
+
+#### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Hombres
 
 | Rank|  Bib|Name                     |Nation | Pts|Gender |WMTRC     |Race                    |Times               |Gap      |MeanGap   |
 |----:|----:|:------------------------|:------|---:|:------|:---------|:-----------------------|:-------------------|:--------|:---------|
@@ -162,8 +174,6 @@ El primer lugar general masculino fue para James KIRWA , UGA (**00:27:37**), en 
 
 
 
-
-
-
-
+<img src="https://timit.pro/events/graphics/flags/png/ug_black.png" width="20" height="15"> <img src="https://timit.pro/events/graphics/flags/png/gb_black.png" width="20" height="15"> <img src="https://timit.pro/events/graphics/flags/png/us_black.png" width="20" height="15"> <img src="https://timit.pro/events/graphics/flags/png/fr_black.png" width="20" height="15"> 
+<img src="https://timit.pro/events/graphics/flags/png/no_black.png" width="20" height="15"> <img src="https://timit.pro/events/graphics/flags/png/ke_black.png" width="20" height="15"> <img src="https://timit.pro/events/graphics/flags/png/at_black.png" width="20" height="15"> <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> <img src="" width="20" height="15">
 
