@@ -120,7 +120,7 @@ En esta competencia el primer lugar masculino fue para Stian Hovind ANGERMUND, N
 
 ![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Vertical%20Race%202023.png)
 
-El primero lugar del kilometro vertical fue para Patrick KIPNGENO, KEN (**00:40:18**), con un tiempo promedio de carrera masculina de (**00:50:21**). En mujeres el primer lugar se completo por Andrea MAYR, AUT (**00:48:14**). El tiempo promedio femenino del km vertical fue de (**00:58:30**).
+El primero lugar del kilometro vertical fue para Patrick KIPNGENO, KEN (**00:40:18**), con un tiempo promedio de carrera masculina de (**00:50:21**). En mujeres el primer lugar se completo por Andrea MAYR, AUT (**00:48:14**). El tiempo promedio femenino del vertical fue de (**00:58:30**).
 
 | Rank|  Bib|Name               |Nation | Pts|Gender |WMTRC     |Race     |Times               |Gap      |MeanGap   |
 |----:|----:|:------------------|:------|---:|:------|:---------|:--------|:-------------------|:--------|:---------|
