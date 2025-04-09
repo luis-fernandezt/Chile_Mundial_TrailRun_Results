@@ -84,7 +84,7 @@ Definiciones:
 
 ![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Long%20Trail%20Race%202023.png)    
 
-En esta competencia el primer lugar femenino fue para Marion DELESPIERRE, FRA ![](https://timit.pro/events/graphics/flags/png/fr_black.png) (**11:22:31**) y en hombres para Benjamin ROUBIOL, FRA ![](https://timit.pro/events/graphics/flags/png/fr_black.png) (**09:52:59**). Dos corredores Chilenos finalizaron por sobre el promedio del tiempo (**12:05:07**). No hubo participación femenina:
+En esta competencia el primer lugar femenino fue para Marion DELESPIERRE, FRA (**11:22:31**) y en hombres para Benjamin ROUBIOL, FRA (**09:52:59**). Dos corredores Chilenos finalizaron por sobre el promedio del tiempo (**12:05:07**). No hubo participación femenina:
 
 | Rank|  Bib|Name                |Nation | Pts|Gender |WMTRC     |Race       |Times               |Gap      |MeanGap   |
 |----:|----:|:-------------------|:------|---:|:------|:---------|:----------|:-------------------|:--------|:---------|
@@ -98,7 +98,7 @@ En esta competencia el primer lugar femenino fue para Marion DELESPIERRE, FRA ![
 
 ![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Short%20Trail%20Race%202023.png)
 
-En esta competencia el primer lugar masculino fue para Stian Hovind ANGERMUND, NOR ![](https://timit.pro/events/graphics/flags/png/no_black.png) (**04:19:00**), mientras el primer lugar general femenino fue para Clementine GEOFFRAY, FRA ![](https://timit.pro/events/graphics/flags/png/fr_black.png) (**04:53:12**). El promedio del tiempo general masculino fue de (**05:27:15**), en tanto la media femenina fue de (**06:10:07**).
+En esta competencia el primer lugar masculino fue para Stian Hovind ANGERMUND, NOR (**04:19:00**), mientras el primer lugar general femenino fue para Clementine GEOFFRAY, FRA (**04:53:12**). El promedio del tiempo general masculino fue de (**05:27:15**), en tanto la media femenina fue de (**06:10:07**).
 
 | Rank|  Bib|Name              |Nation | Pts|Gender |WMTRC     |Race        |Times               |Gap      |MeanGap   |
 |----:|----:|:-----------------|:------|---:|:------|:---------|:-----------|:-------------------|:--------|:---------|
@@ -120,7 +120,7 @@ En esta competencia el primer lugar masculino fue para Stian Hovind ANGERMUND, N
 
 ![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Vertical%20Race%202023.png)
 
-El primero lugar del kilometro vertical fue para Patrick KIPNGENO, KEN ![](https://timit.pro/events/graphics/flags/png/ke_black.png) (**00:40:18**), con un tiempo promedio de carrera masculina de (**00:50:21**). En mujeres el primer lugar se completo por Andrea MAYR, AUT ![](https://timit.pro/events/graphics/flags/png/at_black.png) (**00:48:14**). El tiempo promedio femenino del km vertical fue de (**00:58:30**).
+El primero lugar del kilometro vertical fue para Patrick KIPNGENO, KEN (**00:40:18**), con un tiempo promedio de carrera masculina de (**00:50:21**). En mujeres el primer lugar se completo por Andrea MAYR, AUT (**00:48:14**). El tiempo promedio femenino del km vertical fue de (**00:58:30**).
 
 | Rank|  Bib|Name               |Nation | Pts|Gender |WMTRC     |Race     |Times               |Gap      |MeanGap   |
 |----:|----:|:------------------|:------|---:|:------|:---------|:--------|:-------------------|:--------|:---------|
@@ -138,7 +138,7 @@ El primero lugar del kilometro vertical fue para Patrick KIPNGENO, KEN ![](https
 
 ![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Classic%20Senior%20Race%202023.png)
 
-El primer lugar general masculino fue para Leonard CHEMUTAI, UGA ![](https://timit.pro/events/graphics/flags/png/ug_black.png) (**00:56:14**), en mujeres fue para Grayson MURPHY, USA ![](https://timit.pro/events/graphics/flags/png/us_black.png) (01:04:29). La media de tiempo de finalización para hombres fue de (**01:07:23**), en mujeres fue de (**01:17:57**).
+El primer lugar general masculino fue para Leonard CHEMUTAI, UGA (**00:56:14**), en mujeres fue para Grayson MURPHY, USA (01:04:29). La media de tiempo de finalización para hombres fue de (**01:07:23**), en mujeres fue de (**01:17:57**).
 
 | Rank|  Bib|Name               |Nation | Pts|Gender |WMTRC     |Race                    |Times               |Gap      |MeanGap   |
 |----:|----:|:------------------|:------|---:|:------|:---------|:-----------------------|:-------------------|:--------|:---------|
@@ -151,7 +151,7 @@ El primer lugar general masculino fue para Leonard CHEMUTAI, UGA ![](https://tim
 
 ![](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Classic%20Junior%20Race%202023.png)
 
-El primer lugar general masculino fue para James KIRWA , UGA ![](https://timit.pro/events/graphics/flags/png/ug_black.png) (**00:27:37**), en mujeres fue para Rebecca FLAHERTY, GBR ![](https://timit.pro/events/graphics/flags/png/gb_black.png) (**00:33:20**). La media de tiempo de finalización para hombres fue de (**00:32:18**), en mujeres fue de (**00:38:19**). No se registró participación femeninca nacional:
+El primer lugar general masculino fue para James KIRWA , UGA (**00:27:37**), en mujeres fue para Rebecca FLAHERTY, GBR (**00:33:20**). La media de tiempo de finalización para hombres fue de (**00:32:18**), en mujeres fue de (**00:38:19**). No se registró participación femeninca nacional:
 
 | Rank|  Bib|Name                     |Nation | Pts|Gender |WMTRC     |Race                    |Times               |Gap      |MeanGap   |
 |----:|----:|:------------------------|:------|---:|:------|:---------|:-----------------------|:-------------------|:--------|:---------|
