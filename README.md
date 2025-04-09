@@ -1,5 +1,5 @@
 # Resultados de Chile en el Campeonato Mundial de Trail Running     
-En este repositorio puede encontrar los resultados de la participación de seleccionados de Chile en los Mundiales de Trail Running de Thailand 2021 e Innsbruck 2023. El codigo R con el análisis, así como las bases de datos estan disponibles en:     
+En este repositorio puede encontrar los resultados de la participación **general** (no por categorías) de seleccionados/as de Chile en los Mundiales de Trail Running de Thailand 2021 e Innsbruck 2023. El codigo R con el análisis, así como las bases de datos estan disponibles en:     
 
 - [Reports.R](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/Reports.R)
 - [WMTRC_Thailand.csv](https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/WMTRC_Thailand.csv)
@@ -83,7 +83,7 @@ Definiciones:
 
 <img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Long%20Trail%20Race%202023.png" width="417" height="292">
 
-En esta competencia el primer lugar general hombres fue para Benjamin ROUBIOL, FRA <img src="https://timit.pro/events/graphics/flags/png/fr_black.png" width="20" height="15"> (**09:52:59**) seguido del primer lugar femenino para Marion DELESPIERRE, FRA <img src="https://timit.pro/events/graphics/flags/png/fr_black.png" width="20" height="15"> (**11:22:31**). Dos corredores Chilenos finalizaron por sobre el promedio del tiempo (**12:05:07**). No hubo participación nacional femenina:
+En esta competencia el primer lugar general hombres fue para Benjamin ROUBIOL, FRA <img src="https://timit.pro/events/graphics/flags/png/fr_black.png" width="20" height="15"> (**09:52:59**) seguido del primer lugar femenino para Marion DELESPIERRE, FRA <img src="https://timit.pro/events/graphics/flags/png/fr_black.png" width="20" height="15"> (**11:22:31**). Dos corredores Chilenos finalizaron por sobre el promedio del tiempo (**12:05:07**). Las mujeres sufrieron de seis DNFs en esta distancia:
 
 #### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Hombres
 
@@ -99,7 +99,7 @@ En esta competencia el primer lugar general hombres fue para Benjamin ROUBIOL, F
 
 <img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Short%20Trail%20Race%202023.png" width="417" height="292">
 
-En esta competencia el primer lugar masculino fue para Stian Hovind ANGERMUND, NOR <img src="https://timit.pro/events/graphics/flags/png/no_black.png" width="20" height="15"> (**04:19:00**), mientras el primer lugar general femenino fue para Clementine GEOFFRAY, FRA <img src="https://timit.pro/events/graphics/flags/png/fr_black.png" width="20" height="15"> (**04:53:12**). El promedio del tiempo general masculino fue de (**05:27:15**), en tanto la media femenina fue de (**06:10:07**).
+En esta competencia el primer lugar masculino fue para Stian Hovind ANGERMUND, NOR <img src="https://timit.pro/events/graphics/flags/png/no_black.png" width="20" height="15"> (**04:19:00**), mientras el primer lugar general femenino fue para Clementine GEOFFRAY, FRA <img src="https://timit.pro/events/graphics/flags/png/fr_black.png" width="20" height="15"> (**04:53:12**). El promedio del tiempo general masculino fue de (**05:27:15**), en tanto la media femenina fue de (**06:10:07**). Tres hombres estuvieron por sobre el promedio de la carrera, en tanto que en mujeres hubo una descalificación (DSQ):
 
 #### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Hombres
 
@@ -146,7 +146,7 @@ El primero lugar del vertical fue para Patrick KIPNGENO, KEN <img src="https://t
 
 <img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Classic%20Senior%20Race%202023.png" width="417" height="292">
 
-El primer lugar general masculino fue para Leonard CHEMUTAI, UGA <img src="https://timit.pro/events/graphics/flags/png/ug_black.png" width="20" height="15"> (**00:56:14**), en mujeres fue para Grayson MURPHY, USA <img src="https://timit.pro/events/graphics/flags/png/us_black.png" width="20" height="15"> (01:04:29). La media de tiempo de finalización para hombres fue de (**01:07:23**), en mujeres fue de (**01:17:57**).
+El primer lugar general masculino fue para Leonard CHEMUTAI, UGA <img src="https://timit.pro/events/graphics/flags/png/ug_black.png" width="20" height="15"> (**00:56:14**), en mujeres fue para Grayson MURPHY, USA <img src="https://timit.pro/events/graphics/flags/png/us_black.png" width="20" height="15"> (01:04:29). La media de tiempo de finalización para hombres fue de (**01:07:23**), en mujeres fue de (**01:17:57**). En nacionales hubo una DNF:
 
 #### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Hombres
 
@@ -161,7 +161,7 @@ El primer lugar general masculino fue para Leonard CHEMUTAI, UGA <img src="https
 
 <img src="https://raw.githubusercontent.com/luis-fernandezt/Chile_Mundial_TrailRun_Results/refs/heads/main/data/Classic%20Junior%20Race%202023.png" width="417" height="292">
 
-El primer lugar general masculino fue para James KIRWA , UGA <img src="https://timit.pro/events/graphics/flags/png/ug_black.png" width="20" height="15"> (**00:27:37**), en mujeres fue para Rebecca FLAHERTY, GBR <img src="https://timit.pro/events/graphics/flags/png/gb_black.png" width="20" height="15"> (**00:33:20**). La media de tiempo de finalización para hombres fue de (**00:32:18**), en mujeres fue de (**00:38:19**). No se registró participación femeninca nacional:
+El primer lugar general masculino fue para James KIRWA , UGA <img src="https://timit.pro/events/graphics/flags/png/ug_black.png" width="20" height="15"> (**00:27:37**), en mujeres fue para Rebecca FLAHERTY, GBR <img src="https://timit.pro/events/graphics/flags/png/gb_black.png" width="20" height="15"> (**00:33:20**). La media de tiempo de finalización para hombres fue de (**00:32:18**), en mujeres fue de (**00:38:19**). Destaca Julio Alejandro ESPINOZA (Bib 4321) por ser el mejor rankeado, en la posición 37 de toda la delegación:
 
 #### <img src="https://timit.pro/events/graphics/flags/png/cl_black.png" width="20" height="15"> Resultados Hombres
 
