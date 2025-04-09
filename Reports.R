@@ -58,11 +58,11 @@ gg1 <- ggplot(Long, aes(x = Times, y = Gender, fill = Gender)) +
   geom_jitter(aes(x = Times, y = Gender), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Gender), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Long Trail Race") ) +  # Puntos resaltados
   scale_x_datetime(date_breaks = "60 min", date_labels = "%H:%M") +  # Formato eje X
-  labs(title = "Long Trail Race", x = "Tiempo (HH:MM)", y = "META") +
+  labs(title = "Long Trail Race 2021", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
 
-ggsave(plot = gg1, filename = './data/Long Trail Race 2021.png',units = 'mm', width = 100, height = 70, dpi = 100)
+ggsave(plot = gg1, filename = './data/Long Trail Race 2021.png',units = 'mm', width = 100, height = 70, dpi = 150)
 
 summary(Long)
 knitr::kable(
@@ -76,11 +76,11 @@ gg2 <- ggplot(Short, aes(x = Times, y = Gender, fill = Gender)) +
   geom_jitter(aes(x = Times, y = Gender), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Gender), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Short Trail Race") ) +  # Puntos resaltados
   scale_x_datetime(date_breaks = "30 min", date_labels = "%H:%M") +  # Formato eje X
-  labs(title = "Short Trail Race", x = "Tiempo (HH:MM)", y = "META") +
+  labs(title = "Short Trail Race 2021", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
 
-ggsave(plot = gg2, filename = './data/Short Trail Race 2021.png',units = 'mm', width = 100, height = 70, dpi = 100)
+ggsave(plot = gg2, filename = './data/Short Trail Race 2021.png',units = 'mm', width = 100, height = 70, dpi = 150)
 
 summary(Short)
 knitr::kable(
@@ -98,7 +98,7 @@ gg3 <- ggplot(Uphill, aes(x = Times, y = Gender, fill = Gender)) +
   theme_minimal() +
   guides(fill="none", color="none")
 
-ggsave(plot = gg3, filename = './data/Uphill Mountain Race 2021.png',units = 'mm', width = 100, height = 70, dpi = 100)
+ggsave(plot = gg3, filename = './data/Uphill Mountain Race 2021.png',units = 'mm', width = 100, height = 70, dpi = 150)
 
 summary(Uphill)
 knitr::kable(
@@ -112,11 +112,11 @@ gg4 <- ggplot(Downhill, aes(x = Times, y = Gender, fill = Gender)) +
   geom_jitter(aes(x = Times, y = Gender), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Gender), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Up and Downhill Mountain Race") ) +  # Puntos resaltados
   scale_x_datetime(date_breaks = "10 min", date_labels = "%H:%M") +  # Formato eje X
-  labs(title = "Up and Downhill Mountain Race", x = "Tiempo (HH:MM)", y = "META") +
+  labs(title = "Up and Downhill Race 2021", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
 
-ggsave(plot = gg4, filename = './data/Up and Downhill Mountain Race 2021.png',units = 'mm', width = 100, height = 70, dpi = 100)
+ggsave(plot = gg4, filename = './data/Up and Downhill Mountain Race 2021.png',units = 'mm', width = 100, height = 70, dpi = 150)
 
 summary(Downhill)
 knitr::kable(
@@ -227,7 +227,7 @@ gg5 <- ggplot(Long, aes(x = Times, y = Gender, fill = Gender)) +
   theme_minimal() +
   guides(fill="none", color="none")
 
-ggsave(plot = gg5, filename = './data/Long Trail Race 2023.png',units = 'mm', width = 100, height = 70, dpi = 100)
+ggsave(plot = gg5, filename = './data/Long Trail Race 2023.png',units = 'mm', width = 100, height = 70, dpi = 150)
 
 Long |> filter(Gender == 'Male') |> summary()
 knitr::kable(results2023 |> filter(Race == "Trail Long" & Rank <=10 & Gender == "Male")) 
@@ -252,7 +252,7 @@ gg6 <- ggplot(Short, aes(x = Times, y = Gender, fill = Gender)) +
   theme_minimal() +
   guides(fill="none", color="none")
 
-ggsave(plot = gg6, filename = './data/Short Trail Race 2023.png',units = 'mm', width = 100, height = 70, dpi = 100)
+ggsave(plot = gg6, filename = './data/Short Trail Race 2023.png',units = 'mm', width = 100, height = 70, dpi = 150)
 
 Short |> filter(Gender == 'Male') |> summary()
 knitr::kable(results2023 |> filter(Race == "Trail Short" & Rank <=10 & Gender == "Male"))
@@ -282,7 +282,7 @@ gg7 <- ggplot(Vertical, aes(x = Times, y = Gender, fill = Gender)) +
   theme_minimal() +
   guides(fill="none", color="none")
 
-ggsave(plot = gg7, filename = './data/Vertical Race 2023.png',units = 'mm', width = 100, height = 70, dpi = 100)
+ggsave(plot = gg7, filename = './data/Vertical Race 2023.png',units = 'mm', width = 100, height = 70, dpi = 150)
 
 Vertical |> filter(Gender == 'Male') |> summary()
 knitr::kable(results2023 |> filter(Race == "Vertical" & Rank <=10 & Gender == "Male"))
@@ -310,7 +310,7 @@ gg8 <- ggplot(Senior, aes(x = Times, y = Gender, fill = Gender)) +
   theme_minimal() +
   guides(fill="none", color="none")
 
-ggsave(plot = gg8, filename = './data/Classic Senior Race 2023.png',units = 'mm', width = 100, height = 70, dpi = 100)
+ggsave(plot = gg8, filename = './data/Classic Senior Race 2023.png',units = 'mm', width = 100, height = 70, dpi = 150)
 
 Senior |> filter(Gender == 'Male') |> summary()
 knitr::kable(results2023 |> filter(Race == "Mountain Classic Senior" & Rank <=10 & Gender == "Male"))
@@ -338,7 +338,7 @@ gg9 <- ggplot(Junior, aes(x = Times, y = Gender, fill = Gender)) +
   theme_minimal() +
   guides(fill="none", color="none")
 
-ggsave(plot = gg9, filename = './data/Classic Junior Race 2023.png',units = 'mm', width = 100, height = 70, dpi = 100)
+ggsave(plot = gg9, filename = './data/Classic Junior Race 2023.png',units = 'mm', width = 100, height = 70, dpi = 150)
 
 
 Junior |> filter(Gender == 'Male') |> summary()
