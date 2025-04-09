@@ -5,6 +5,7 @@ library(tidyverse)
 library(zoo)
 library(chron)
 library(lubridate)
+library(hms) 
 library(ggplot2)
 library(dplyr)
 library(viridis)
@@ -51,58 +52,72 @@ cl_2021 |>
   arrange(Race, Rank))
 
 # General results
-ggplot(Long, aes(x = Times, y = Gender, fill = Gender)) +
+gg1 <- ggplot(Long, aes(x = Times, y = Gender, fill = Gender)) +
   geom_boxplot(outlier.size=-1) +
   scale_fill_viridis(discrete = TRUE, alpha=0.6) +
   geom_jitter(aes(x = Times, y = Gender), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Gender), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Long Trail Race") ) +  # Puntos resaltados
-  scale_x_datetime(date_breaks = "hour", date_labels = "%H:%M") +  # Formato eje X
+  scale_x_datetime(date_breaks = "60 min", date_labels = "%H:%M") +  # Formato eje X
   labs(title = "Long Trail Race", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
+
+ggsave(plot = gg1, filename = './data/Long Trail Race 2021.png',units = 'mm', width = 100, height = 100, dpi = 300)
+
 summary(Long)
 knitr::kable(
 results2021 |> filter(Race == "Long Trail Race" & Rank <=3 & Gender == "Male"))
 knitr::kable(
 results2021 |> filter(Race == "Long Trail Race" & Rank <=3 & Gender == "Female"))
 
-ggplot(Short, aes(x = Times, y = Gender, fill = Gender)) +
+gg2 <- ggplot(Short, aes(x = Times, y = Gender, fill = Gender)) +
   geom_boxplot(outlier.size=-1) +
   scale_fill_viridis(discrete = TRUE, alpha=0.6) +
   geom_jitter(aes(x = Times, y = Gender), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Gender), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Short Trail Race") ) +  # Puntos resaltados
-  scale_x_datetime(date_breaks = "hour", date_labels = "%H:%M") +  # Formato eje X
+  scale_x_datetime(date_breaks = "30 min", date_labels = "%H:%M") +  # Formato eje X
   labs(title = "Short Trail Race", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
+
+ggsave(plot = gg2, filename = './data/Short Trail Race 2021.png',units = 'mm', width = 100, height = 100, dpi = 300)
+
 summary(Short)
 knitr::kable(
 results2021 |> filter(Race == "Short Trail Race" & Rank <=3 & Gender == "Male"))
 knitr::kable(
 results2021 |> filter(Race == "Short Trail Race" & Rank <=3 & Gender == "Female"))
 
-ggplot(Uphill, aes(x = Times, y = Gender, fill = Gender)) +
+gg3 <- ggplot(Uphill, aes(x = Times, y = Gender, fill = Gender)) +
   geom_boxplot(outlier.size=-1) +
   scale_fill_viridis(discrete = TRUE, alpha=0.6) +
   geom_jitter(aes(x = Times, y = Gender), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Gender), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Uphill Mountain Race") ) +  # Puntos resaltados
+  scale_x_datetime(date_breaks = "5 min", date_labels = "%H:%M") +  # Formato eje X
   labs(title = "Uphill Mountain Race", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
+
+ggsave(plot = gg3, filename = './data/Uphill Mountain Race 2021.png',units = 'mm', width = 100, height = 100, dpi = 300)
+
 summary(Uphill)
 knitr::kable(
 results2021 |> filter(Race == "Uphill Mountain Race" & Rank <=3 & Gender == "Male"))
 knitr::kable(
 results2021 |> filter(Race == "Uphill Mountain Race" & Rank <=3 & Gender == "Female"))
 
-ggplot(Downhill, aes(x = Times, y = Gender, fill = Gender)) +
+gg4 <- ggplot(Downhill, aes(x = Times, y = Gender, fill = Gender)) +
   geom_boxplot(outlier.size=-1) +
   scale_fill_viridis(discrete = TRUE, alpha=0.6) +
   geom_jitter(aes(x = Times, y = Gender), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Gender), color = "red", size = 3,  alpha=0.9, data = cl_2021 |> filter(Race == "Up and Downhill Mountain Race") ) +  # Puntos resaltados
+  scale_x_datetime(date_breaks = "10 min", date_labels = "%H:%M") +  # Formato eje X
   labs(title = "Up and Downhill Mountain Race", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
+
+ggsave(plot = gg4, filename = './data/Up and Downhill Mountain Race 2021.png',units = 'mm', width = 100, height = 100, dpi = 300)
+
 summary(Downhill)
 knitr::kable(
 results2021 |> filter(Race == "Up and Downhill Mountain Race" & Rank <=3 & Gender == "Male"))
@@ -198,7 +213,7 @@ Senior <- results2023 |> filter(Race =="Mountain Classic Senior")
 Junior <- results2023 |> filter(Race =="Mountain Classic Junior") 
 
 # General results
-ggplot(Long, aes(x = Times, y = Gender, fill = Gender)) +
+gg5 <- ggplot(Long, aes(x = Times, y = Gender, fill = Gender)) +
   geom_boxplot(outlier.size=-1) +
   scale_fill_viridis(discrete = TRUE, alpha=0.6) +
   geom_jitter(aes(x = Times, y = Gender), color = "black", size = 1.5, alpha=0.9) +
@@ -207,74 +222,150 @@ ggplot(Long, aes(x = Times, y = Gender, fill = Gender)) +
   labs(title = "WMTRC - Long Trail Race 2023", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
-Long |> filter(Gender == 'Male') |> summary()
-knitr::kable(results2023 |> filter(Race == "Trail Long" & Rank <=3 & Gender == "Male"))
-knitr::kable(results2023 |> filter(Race == "Trail Long" & Nation == "CHI" & Gender == "Male"))
-Long |> filter(Gender == 'Female') |> summary()
-knitr::kable(results2023 |> filter(Race == "Trail Long" & Rank <=3 & Gender == "Female"))
 
-ggplot(Short, aes(x = Times, y = Gender, fill = Gender)) +
+ggsave(plot = gg5, filename = './data/Long Trail Race 2023.png',units = 'mm', width = 100, height = 100, dpi = 300)
+
+Long |> filter(Gender == 'Male') |> summary()
+knitr::kable(results2023 |> filter(Race == "Trail Long" & Rank <=10 & Gender == "Male")) 
+
+mean.long <- Long |> filter(Gender == 'Male') |> select(Times) |> summarise(mean(Times))
+p1.long <- Long |> filter(Gender == 'Male' & Rank == 1) |> select(Times)
+knitr::kable(
+results2023 |> filter(Race == "Trail Long" & Nation == "CHI" & Gender == "Male") |>
+  mutate(Gap = round_hms(as_hms(Times - p1.long[[1]]),1)) |>
+  mutate(MeanGap = round_hms(as_hms(Times - mean.long[[1]]),1)))
+
+Long |> filter(Gender == 'Female') |> summary()
+knitr::kable(results2023 |> filter(Race == "Trail Long" & Rank <=3 & Gender == "Female")) 
+
+gg6 <- ggplot(Short, aes(x = Times, y = Gender, fill = Gender)) +
   geom_boxplot(outlier.size=-1) +
   scale_fill_viridis(discrete = TRUE, alpha=0.6) +
   geom_jitter(aes(x = Times, y = Gender), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Gender), color = "red", size = 3,  alpha=0.9, data = cl_2023_ |> filter(Race == "Trail Short") ) +  # Puntos resaltados
-  scale_x_datetime(date_breaks = "hour", date_labels = "%H:%M") +  # Formato eje X
+  scale_x_datetime(date_breaks = "30 min", date_labels = "%H:%M") +  # Formato eje X
   labs(title = "WMTRC - Short Trail Race 2023", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
-Short |> filter(Gender == 'Male') |> summary()
-knitr::kable(results2023 |> filter(Race == "Trail Short" & Rank <=3 & Gender == "Male"))
-knitr::kable(results2023 |> filter(Race == "Trail Short" & Nation == "CHI" & Gender == "Male"))
-Short |> filter(Gender == 'Female') |> summary()
-knitr::kable(results2023 |> filter(Race == "Trail Short" & Rank <=3 & Gender == "Female"))
-knitr::kable(results2023 |> filter(Race == "Trail Short" & Nation == "CHI" & Gender == "Female"))
 
-ggplot(Vertical, aes(x = Times, y = Gender, fill = Gender)) +
+ggsave(plot = gg6, filename = './data/Short Trail Race 2023.png',units = 'mm', width = 100, height = 100, dpi = 300)
+
+Short |> filter(Gender == 'Male') |> summary()
+knitr::kable(results2023 |> filter(Race == "Trail Short" & Rank <=10 & Gender == "Male"))
+mean.Short <- Short |> filter(Gender == 'Male') |> select(Times) |> summarise(mean(Times))
+p1.Short <- Short |> filter(Gender == 'Male' & Rank == 1) |> select(Times)
+knitr::kable(results2023 |> filter(Race == "Trail Short" & Nation == "CHI" & Gender == "Male") |>
+  mutate(Gap = round_hms(as_hms(Times - p1.Short[[1]]),1)) |>
+  mutate(MeanGap = round_hms(as_hms(Times - mean.Short[[1]]),1)))
+
+Short |> filter(Gender == 'Female') |> summary()
+mean.Short <- Short |> filter(Gender == 'Female') |> select(Times) |> summarise(mean(Times))
+p1.Short <- Short |> filter(Gender == 'Female' & Rank == 1) |> select(Times)
+mean.Short <- Short |> filter(Gender == 'Female') |> select(Times) |> summarise(mean(Times))
+knitr::kable(results2023 |> filter(Race == "Trail Short" & Rank <=10 & Gender == "Female"))
+knitr::kable(results2023 |> filter(Race == "Trail Short" & Nation == "CHI" & Gender == "Female") |>
+               mutate(Gap = round_hms(as_hms(Times - p1.Short[[1]]),1)) |>
+               mutate(MeanGap = round_hms(as_hms(Times - mean.Short[[1]]),1)))
+
+
+gg7 <- ggplot(Vertical, aes(x = Times, y = Gender, fill = Gender)) +
   geom_boxplot(outlier.size=-1) +
   scale_fill_viridis(discrete = TRUE, alpha=0.6) +
   geom_jitter(aes(x = Times, y = Gender), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Gender), color = "red", size = 3,  alpha=0.9, data = cl_2023_ |> filter(Race == "Vertical") ) +  # Puntos resaltados
-  scale_x_datetime(date_breaks = "hour", date_labels = "%H:%M") +  # Formato eje X
+  scale_x_datetime(date_breaks = "10 min", date_labels = "%H:%M") +  # Formato eje X
   labs(title = "WMTRC - Vertical Race 2023", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
-Vertical |> filter(Gender == 'Male') |> summary()
-knitr::kable(results2023 |> filter(Race == "Vertical" & Rank <=3 & Gender == "Male"))
-knitr::kable(results2023 |> filter(Race == "Vertical" & Nation == "CHI" & Gender == "Male"))
-Vertical |> filter(Gender == 'Female') |> summary()
-knitr::kable(results2023 |> filter(Race == "Vertical" & Rank <=3 & Gender == "Female"))
-knitr::kable(results2023 |> filter(Race == "Vertical" & Nation == "CHI" & Gender == "Female"))
 
-ggplot(Senior, aes(x = Times, y = Gender, fill = Gender)) +
+ggsave(plot = gg7, filename = './data/Vertical Race 2023.png',units = 'mm', width = 100, height = 100, dpi = 300)
+
+Vertical |> filter(Gender == 'Male') |> summary()
+knitr::kable(results2023 |> filter(Race == "Vertical" & Rank <=10 & Gender == "Male"))
+mean.Vertical <- Vertical |> filter(Gender == 'Male') |> select(Times) |> summarise(mean(Times))
+p1.Vertical<- Vertical |> filter(Gender == 'Male' & Rank == 1) |> select(Times)
+knitr::kable(results2023 |> filter(Race == "Vertical" & Nation == "CHI" & Gender == "Male") |>
+               mutate(Gap = round_hms(as_hms(Times - p1.Vertical[[1]]),1)) |>
+               mutate(MeanGap = round_hms(as_hms(Times - mean.Vertical[[1]]),1)))
+
+Vertical |> filter(Gender == 'Female') |> summary()
+knitr::kable(results2023 |> filter(Race == "Vertical" & Rank <=10 & Gender == "Female"))
+mean.Vertical <- Vertical |> filter(Gender == 'Female') |> select(Times) |> summarise(mean(Times))
+p1.Vertical<- Vertical |> filter(Gender == 'Female' & Rank == 1) |> select(Times)
+knitr::kable(results2023 |> filter(Race == "Vertical" & Nation == "CHI" & Gender == "Female") |>
+               mutate(Gap = round_hms(as_hms(Times - p1.Vertical[[1]]),1)) |>
+               mutate(MeanGap = round_hms(as_hms(Times - mean.Vertical[[1]]),1)))
+
+gg8 <- ggplot(Senior, aes(x = Times, y = Gender, fill = Gender)) +
   geom_boxplot(outlier.size=-1) +
   scale_fill_viridis(discrete = TRUE, alpha=0.6) +
   geom_jitter(aes(x = Times, y = Gender), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Gender), color = "red", size = 3,  alpha=0.9, data = cl_2023_ |> filter(Race == "Mountain Classic Senior") ) +  # Puntos resaltados
-  scale_x_datetime(date_breaks = "hour", date_labels = "%H:%M") +  # Formato eje X
+  scale_x_datetime(date_breaks = "10 min", date_labels = "%H:%M") +  # Formato eje X
   labs(title = "WMTRC - Classic Senior Race 2023", x = "Tiempo (HH:MM)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
-Senior |> filter(Gender == 'Male') |> summary()
-knitr::kable(results2023 |> filter(Race == "Mountain Classic Senior" & Rank <=3 & Gender == "Male"))
-knitr::kable(results2023 |> filter(Race == "Mountain Classic Senior" & Nation == "CHI" & Gender == "Male"))
-Senior |> filter(Gender == 'Female') |> summary()
-knitr::kable(results2023 |> filter(Race == "Mountain Classic Senior" & Rank <=3 & Gender == "Female"))
-knitr::kable(results2023 |> filter(Race == "Mountain Classic Senior" & Nation == "CHI" & Gender == "Female"))
 
-ggplot(Junior, aes(x = Times, y = Gender, fill = Gender)) +
+ggsave(plot = gg8, filename = './data/Classic Senior Race 2023.png',units = 'mm', width = 100, height = 100, dpi = 300)
+
+Senior |> filter(Gender == 'Male') |> summary()
+knitr::kable(results2023 |> filter(Race == "Mountain Classic Senior" & Rank <=10 & Gender == "Male"))
+p1.Senior <- Senior |> filter(Gender == 'Male' & Rank == 1) |> select(Times)
+mean.Senior <- Senior |> filter(Gender == 'Male') |> select(Times) |> summarise(mean(Times))
+knitr::kable(results2023 |> filter(Race == "Mountain Classic Senior" & Nation == "CHI" & Gender == "Male") |>
+               mutate(Gap = round_hms(as_hms(Times - p1.Senior[[1]]),1)) |>
+               mutate(MeanGap = round_hms(as_hms(Times - mean.Senior[[1]]),1)))
+
+Senior |> filter(Gender == 'Female') |> summary()
+knitr::kable(results2023 |> filter(Race == "Mountain Classic Senior" & Rank <=10 & Gender == "Female"))
+p1.Senior <- Senior |> filter(Gender == 'Female' & Rank == 1) |> select(Times)
+mean.Senior <- Senior |> filter(Gender == 'Female') |> select(Times) |> summarise(mean(Times))
+knitr::kable(results2023 |> filter(Race == "Mountain Classic Senior" & Nation == "CHI" & Gender == "Female") |>
+               mutate(Gap = round_hms(as_hms(Times - p1.Senior[[1]]),1)) |>
+               mutate(MeanGap = round_hms(as_hms(Times - mean.Senior[[1]]),1)))
+
+gg9 <- ggplot(Junior, aes(x = Times, y = Gender, fill = Gender)) +
   geom_boxplot(outlier.size=-1) +
   scale_fill_viridis(discrete = TRUE, alpha=0.6) +
   geom_jitter(aes(x = Times, y = Gender), color = "black", size = 1.5, alpha=0.9) +
   geom_jitter(aes(x = Times, y = Gender), color = "red", size = 3,  alpha=0.9, data = cl_2023_ |> filter(Race == "Mountain Classic Junior") ) +  # Puntos resaltados
-  scale_x_datetime(date_breaks = "min", date_labels = "%M") +  # Formato eje X
-  labs(title = "WMTRC - Classic Junior Race 2023", x = "Tiempo (Min)", y = "META") +
+  scale_x_datetime(date_breaks = "5 min", date_labels = "%M:%S") +  # Formato eje X
+  labs(title = "WMTRC - Classic Junior Race 2023", x = "Tiempo (MM:SS)", y = "META") +
   theme_minimal() +
   guides(fill="none", color="none")
+
+ggsave(plot = gg9, filename = './data/Classic Junior Race 2023.png',units = 'mm', width = 100, height = 100, dpi = 300)
+
+
 Junior |> filter(Gender == 'Male') |> summary()
-knitr::kable(results2023 |> filter(Race == "Mountain Classic Junior" & Rank <=3 & Gender == "Male"))
-knitr::kable(results2023 |> filter(Race == "Mountain Classic Junior" & Nation == "CHI" & Gender == "Male"))
+knitr::kable(results2023 |> filter(Race == "Mountain Classic Junior" & Rank <=10 & Gender == "Male"))
+p1.Junior <- Junior |> filter(Gender == 'Male' & Rank == 1) |> select(Times)
+mean.Junior <- Junior |> filter(Gender == 'Male') |> select(Times) |> summarise(mean(Times))
+knitr::kable(results2023 |> filter(Race == "Mountain Classic Junior" & Nation == "CHI" & Gender == "Male") |>
+               mutate(Gap = round_hms(as_hms(Times - p1.Junior[[1]]),1)) |>
+               mutate(MeanGap = round_hms(as_hms(Times - mean.Junior[[1]]),1)))
+
 Junior |> filter(Gender == 'Female') |> summary()
-knitr::kable(results2023 |> filter(Race == "Mountain Classic Junior" & Rank <=3 & Gender == "Female"))
+knitr::kable(results2023 |> filter(Race == "Mountain Classic Junior" & Rank <=10 & Gender == "Female"))
 
+#Medals
+medals2023 <- results2023 |> mutate(Medal = case_when(Rank == 1 ~ "Gold",
+                                                  Rank == 2 ~ "Silver",
+                                                  Rank == 3 ~ "Bronze",
+                                                  TRUE ~ NA_character_))
 
-#Fin
+medals2023 <- na.omit(medals2023) 
+
+# Contar medallas Generales por país
+rank <- 
+  medals2023 |>
+  group_by(Nation, Medal) |>
+  summarise(Count = n(), .groups = 'drop') |>
+  tidyr::pivot_wider(names_from = Medal, values_from = Count, values_fill = list(Count = 0)) |>
+  mutate(Total = Gold + Silver + Bronze) |>
+  arrange(desc(Total)) |>
+  mutate(Ranking = row_number())
+
+# Reordenar columnas
+rank <- rank %>% select(Ranking, Nation, Gold, Silver, Bronze, Total)
+knitr::kable(rank) 
